@@ -1,0 +1,24 @@
+{
+    "name": "chemem/bingo-model",
+    "description": "A simple SQL interaction class for the Bingo Framework.",
+    "type": "library",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "Lochemem Bruno Michael",
+            "email": "lochbm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chemem\\Bingo\\Model\\": "src/"
+        }
+    }
+}
