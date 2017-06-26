@@ -10,4 +10,4 @@ php:
 before_script:
     - composer update
 
-script: vendor/bin/phpunit --coverage-text
+script: vendor/bin/phpunit -c phpunit.xml
