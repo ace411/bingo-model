@@ -1,3 +1,4 @@
 #Ignore all the dependencies in the vendor directory
 
 /vendor/
+/vendor/**/.git
