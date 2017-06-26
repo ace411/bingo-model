@@ -10,7 +10,7 @@ A simple ORM for the Bingo Framework.
 
 ## Documentation
 
-Check out the docs folder for more information on how to use this package.
+Check out the [docs](https://github.com/ace411/bingo-model/blob/master/docs/main.md) for more information on how to use this package.
 
 ## Dealing with problems
 
