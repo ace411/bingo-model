@@ -13,4 +13,7 @@ services:
 before_install:
     - mysql -e "CREATE DATABASE dummy_data"
 
+before_script:
+    - composer require phpunit/phpunit:5.7 
+
 script: vendor/bin/phpunit -c phpunit.xml
